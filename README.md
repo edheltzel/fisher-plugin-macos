@@ -12,6 +12,7 @@
 
 ## A fork of the original osx plugin
 **The original repository seems to be no longer maintained, so this is a fork that aims to keep the useful functions updated.**
+[oh-my-fish/plugin-osx](https://github.com/oh-my-fish/plugin-osx)
 
 Inspired by the [oh-my-zsh][original-plugin]’s plugin of same name by
 [sorin-ionescu][original-author], this plug-in brings a number of handy
