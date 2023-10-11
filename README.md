@@ -1,4 +1,3 @@
-[![][travis-badge]][travis-link]
 ![][license-badge]
 
 <div align="center">
@@ -9,14 +8,17 @@
 <br>
 
 
-# osx
+# macOS
+
+## A fork of the original osx plugin
+**The original repository seems to be no longer maintained, so this is a fork that aims to keep the useful functions updated.**
 
 Inspired by the [oh-my-zsh][original-plugin]’s plugin of same name by
 [sorin-ionescu][original-author], this plug-in brings a number of handy
 functions:
 
 - `cdf` - `cd` to the current Finder directory
-- `flushdns` - Flushes the DNS cache for Yosemite and El Capitan
+- `flushdns` - Flushes the DNS cache for Catalina and later
 - `music` - Control Music: Play, pause, stop, resume, etc.
 - `manp` - Open a specified man page in Preview
 - `pfd` - Return the path of the frontmost Finder window
@@ -31,10 +33,10 @@ functions:
 > *Note*: the `tab` function was dropped in favor a more robust [plugin-tab].
 
 
-## Install
+## Install (fisher)
 
 ```fish
-$ omf install osx
+$ fisher install edheltzel/fisher-plugin-macos
 ```
 
 
@@ -64,5 +66,3 @@ $ ql *jpg    # quick look all such pictures
 [omf-link]:        https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:   https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
-[travis-badge]:    http://img.shields.io/travis/oh-my-fish/plugin-osx.svg?style=flat-square
-[travis-link]:     https://travis-ci.org/oh-my-fish/plugin-osx
