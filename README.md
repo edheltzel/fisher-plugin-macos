@@ -29,7 +29,9 @@ Originally inspired by the [oh-my-zsh][original-plugin]’s plugin of same name 
 | `showhidden` | Shows hidden files and folders in Finder                     |
 | `trash`      | Move a specified file/directory to the Trash (a safer `rm`)  |
 | `unset`      | Emulates the `unset` command to unset an environment variable |
-| `updatedb`   | Updates locate command database                              |
+| `updatedb`   | Updates 'locate' database                                    |
+| `freespace`  | Erases purgeable disk space with 0s on the selected disk     |
+| `rmds`       | Remove `.DS_Store` files either recursively in a directory or only in the current directory |
 
 > *Note*: the `tab` function was dropped in favor a more robust [plugin-tab][plugin-tab].
 
@@ -49,6 +51,7 @@ $ fisher install edheltzel/fisher-plugin-macos
 $ music -h  # show usage and available options
 $ manp fish  # open Fish's manpage in Preview
 $ ql *jpg    # quick look all such pictures
+$ rmds -c # remove .DS_Store from the current directory only
 ```
 
 
