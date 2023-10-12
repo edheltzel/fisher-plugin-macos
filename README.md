@@ -10,31 +10,33 @@
 
 # macOS
 
-## A fork of the original osx plugin
-**The original repository seems to be no longer maintained, so this is a fork that aims to keep the useful functions updated.**
-[oh-my-fish/plugin-osx](https://github.com/oh-my-fish/plugin-osx)
+## This is a fork of the original oh-my-fish osx plugin
+> **The original repository seems to be abandoned and is no longer being maintained, so this fork aims to keep the useful functions updated.**
+> - see the OG 👉 [oh-my-fish/plugin-osx][osx-plugin]
 
-Inspired by the [oh-my-zsh][original-plugin]’s plugin of same name by
-[sorin-ionescu][original-author], this plug-in brings a number of handy
-functions:
+Originally inspired by the [oh-my-zsh][original-plugin]’s plugin of same name by [sorin-ionescu][original-author], this plug-in brings a number of handy functions:
 
-- `cdf` - `cd` to the current Finder directory
-- `flushdns` - Flushes the DNS cache for Catalina and later
-- `music` - Control Music: Play, pause, stop, resume, etc.
-- `manp` - Open a specified man page in Preview
-- `pfd` - Return the path of the frontmost Finder window
-- `pfs` - Return the current Finder selection
-- `pushdf` - `pushd` to the current Finder directory
-- `ql` - Quick Look a specified file or directory
-- `showhidden` - Shows hidden files and folders in Finder
-- `trash` - Move a specified file to the Trash
-- `unset` - Emulates the `unset` command to unset an environment variable
-- `updatedb` - Updates locate command database
+| Command      | Description                                                  |
+| ------------ | ------------------------------------------------------------ |
+| `cdf`        | `cd` to the current Finder Directory                         |
+| `flushdns`   | Flushed the DNS cache for Catalina and later                 |
+| `music`      | Control Music: play, pause, stop, resume, etc. - Updated/Added by [@jnnkB](https://github.com/oh-my-fish/plugin-osx/pull/13) |
+| `manp`       | Open a specific man page in Preview - Updated/Added by [@toph-allen](https://github.com/oh-my-fish/plugin-osx/pull/14) |
+| `pfd`        | Return the path of the front-most Finder window              |
+| `pfs`        | Resturn the current Finder selection                         |
+| `pushdf`     | `pushd` to the current Finder directory                      |
+| `ql`         | Quick Look a specified file or directory                     |
+| `showhidden` | Shows hidden files and folders in Finder                     |
+| `trash`      | Move a specified file/directory to the Trash (a safer `rm`)  |
+| `unset`      | Emulates the `unset` command to unset an environment variable |
+| `updatedb`   | Updates locate command database                              |
 
-> *Note*: the `tab` function was dropped in favor a more robust [plugin-tab].
+> *Note*: the `tab` function was dropped in favor a more robust [plugin-tab][plugin-tab].
 
 
-## Install (fisher)
+## Installation
+
+**[Fisher][fisher-link]**
 
 ```fish
 $ fisher install edheltzel/fisher-plugin-macos
@@ -55,7 +57,7 @@ $ ql *jpg    # quick look all such pictures
 [MIT][mit] © [bpinto][author] et [al][contributors]
 
 
-[original-plugin]: https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/osx/osx.plugin.zsh
+[original-plugin]: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos
 [original-author]: https://github.com/sorin-ionescu
 [plugin-tab]:      https://github.com/oh-my-fish/plugin-tab
 [cykeb]:           https://github.com/cykeb
@@ -65,5 +67,7 @@ $ ql *jpg    # quick look all such pictures
 [author]:          https://github.com/bpinto
 [contributors]:    https://github.com/oh-my-fish/plugin-osx/graphs/contributors
 [omf-link]:        https://www.github.com/oh-my-fish/oh-my-fish
+[osx-plugin]:      https://github.com/oh-my-fish/plugin-osx
+[fisher-link]: https://github.com/jorgebucaran/fisher
 
 [license-badge]:   https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
