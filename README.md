@@ -19,6 +19,7 @@ Originally inspired by the [oh-my-zsh][original-plugin]’s plugin of same name 
 | Command      | Description                                                                                                                  |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | `cdf`        | `cd` to the current Finder Directory                                                                                         |
+| `ofd`        | Open the current directory in a Finder window                                                                                |
 | `flushdns`   | Flushed the DNS cache for Catalina and later                                                                                 |
 | `music`      | Control Music: play, pause, stop, resume, etc. - Updated/Added by [@jnnkB](https://github.com/oh-my-fish/plugin-osx/pull/13) |
 | `manp`       | Open a specific man page in Preview - Updated/Added by [@toph-allen](https://github.com/oh-my-fish/plugin-osx/pull/14)       |
