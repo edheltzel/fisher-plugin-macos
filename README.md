@@ -11,27 +11,27 @@
 # macOS
 
 ## This is a fork of the original oh-my-fish osx plugin
-> **The original repository seems to be abandoned and is no longer being maintained, so this fork aims to keep the useful functions updated.**
+> **The original repository appears to be no longer being maintained, so this fork aims to keep the useful functions updated.**
 > - see the OG 👉 [oh-my-fish/plugin-osx][osx-plugin]
 
 Originally inspired by the [oh-my-zsh][original-plugin]’s plugin of same name by [sorin-ionescu][original-author], this plug-in brings a number of handy functions:
 
-| Command      | Description                                                  |
-| ------------ | ------------------------------------------------------------ |
-| `cdf`        | `cd` to the current Finder Directory                         |
-| `flushdns`   | Flushed the DNS cache for Catalina and later                 |
+| Command      | Description                                                                                                                  |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| `cdf`        | `cd` to the current Finder Directory                                                                                         |
+| `flushdns`   | Flushed the DNS cache for Catalina and later                                                                                 |
 | `music`      | Control Music: play, pause, stop, resume, etc. - Updated/Added by [@jnnkB](https://github.com/oh-my-fish/plugin-osx/pull/13) |
-| `manp`       | Open a specific man page in Preview - Updated/Added by [@toph-allen](https://github.com/oh-my-fish/plugin-osx/pull/14) |
-| `pfd`        | Return the path of the front-most Finder window              |
-| `pfs`        | Resturn the current Finder selection                         |
-| `pushdf`     | `pushd` to the current Finder directory                      |
-| `ql`         | Quick Look a specified file or directory                     |
-| `showhidden` | Shows hidden files and folders in Finder                     |
-| `trash`      | Move a specified file/directory to the Trash (a safer `rm`)  |
-| `unset`      | Emulates the `unset` command to unset an environment variable |
-| `updatedb`   | Updates 'locate' database                                    |
-| `freespace`  | Erases purgeable disk space with 0s on the selected disk     |
-| `rmds`       | Remove `.DS_Store` files either recursively in a directory or only in the current directory |
+| `manp`       | Open a specific man page in Preview - Updated/Added by [@toph-allen](https://github.com/oh-my-fish/plugin-osx/pull/14)       |
+| `pfd`        | Return the path of the front-most Finder window                                                                              |
+| `pfs`        | Return the current Finder selection                                                                                          |
+| `pushdf`     | `pushd` to the current Finder directory                                                                                      |
+| `ql`         | Quick Look a specified file or directory                                                                                     |
+| `showhidden` | Shows hidden files and folders in Finder                                                                                     |
+| `trash`      | Move a specified file/directory to the Trash (a safer `rm`)                                                                  |
+| `unset`      | Emulates the `unset` command to unset an environment variable                                                                |
+| `updatedb`   | Updates 'locate' database                                                                                                    |
+| `freespace`  | Erases purgeable disk space with 0s on the selected disk                                                                     |
+| `rmds`       | Remove `.DS_Store` files either recursively in a directory or only in the current directory                                  |
 
 > *Note*: the `tab` function was dropped in favor a more robust [plugin-tab][plugin-tab].
 
@@ -57,20 +57,18 @@ $ rmds -c # remove .DS_Store from the current directory only
 
 # License
 
-[MIT][mit] © [bpinto][author] et [al][contributors]
+[MIT][mit] © [edheltzel][author] et [al][contributors]
 
 
 [original-plugin]: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos
 [original-author]: https://github.com/sorin-ionescu
 [plugin-tab]:      https://github.com/oh-my-fish/plugin-tab
-[cykeb]:           https://github.com/cykeb
-[scorphus]:        https://github.com/scorphus
 
 [mit]:             http://opensource.org/licenses/MIT
-[author]:          https://github.com/bpinto
+[author]:          https://github.com/edheltzel
 [contributors]:    https://github.com/oh-my-fish/plugin-osx/graphs/contributors
 [omf-link]:        https://www.github.com/oh-my-fish/oh-my-fish
 [osx-plugin]:      https://github.com/oh-my-fish/plugin-osx
-[fisher-link]: https://github.com/jorgebucaran/fisher
+[fisher-link]:     https://github.com/jorgebucaran/fisher
 
 [license-badge]:   https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
